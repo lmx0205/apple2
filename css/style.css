@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.ggtop{
+	height: 40px;
+	background: #444;
+}
+.ggmain{
+	width: 976px;
+	/*这个设置可以让div元素水平居中*/
+	margin: 0 auto;
+	/*文字靠右*/
+	text-align: right;
+	height: 40px;
+	line-height: 40px;
+	color: #a8a8aa;
+	font-size: 12px;
+}
+
+.nav{
+	/**/
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 44px;
+	background: rgba(0,0,0,0.8);
+}
+.navmain{
+	height: 44px;
+	width: 976px;
+	margin: 0 auto;
+}
+
+.navmain a{
+	/*inline是没有宽高的，只有inlineblock和block是有宽高*/
+	display: inline-block;
+	width: 105px;
+	height: 40px;
+	line-height: 44px;
+	color: #fff;
+	text-align: center;
+	/*浮动解决高度不一致，以及间距问题*/
+	float: left;
+	/*去掉下划线*/
+	text-decoration: none;
+	font-size: 14px;
+}
+.logo{
+	background: url(../img/image_large.svg);
+	background-repeat: no-repeat;
+}
+.search{
+	background: url(../img/seach.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.buy{
+	background: url(../img/bag.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+
+.banner1{
+	padding-top: 70px;
+	height: 600px;
+	text-align: center;
+	/*设置溢出隐藏*/
+	overflow: hidden;
+}
+.banner1 h1{
+	
+	font-size: 56px;
+}
+.banner1 p{
+	font-size: 27px;
+}
+.banner1 a{
+	display: inline-block;
+	color: #0070c9;
+	font-size: 21px;
+	margin: 23px 30px 75px;
+}
+
+.bgGrey{
+	background: #f5f5f5;
+}
+
+
+.list{
+	width: 100%;
+	height: 600px;
+	
+}
+.list .left{
+	width: 50%;
+	height: 580px;
+	padding: 10px;
+	display: inline-block;
+	float: left;
+}
+.list .right{
+	width: 50%;
+	height: 580px;
+	padding: 10px;
+	display: inline-block;
+	float: left;
+}
+.left .ggl{
+	width: 100%;
+	height: 100%;
+	background: url(../img/shop_for_college_large.jpg);
+	background-position: center;
+}
+.right .ggl{
+	width: 100%;
+	height: 100%;
+	background: url(../img/behind_the_mac_boniface_large.jpg);
+	background-position: center;
+}

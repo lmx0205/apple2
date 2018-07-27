@@ -1,0 +1,337 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/*content-box  是默认值。border-box 告诉浏览器去理解你设置的边框和内边距的值是包含在width内的. */
+}
+.gg{
+	height: 40px;
+	background: #444;
+}
+.gf{
+	width:976px;
+	/*这个设置可以让div元素水平居中*/
+	margin: 0 auto;
+	/*文字靠右*/
+	text-align: right;
+	font-size: 12px;
+	color:#a8a8aa;
+	line-height: 44px;
+}
+.main1{
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	height:44px ;
+	background:rgba(0,0,0,0.8) ;
+}
+.main2{
+	width:976px;
+	margin: 0 auto;
+	height: 44px;
+}
+.main2 a{
+	/*inline是没有宽高的，只有inlineblock和block是有宽高*/
+	display: inline-block;
+	width: 105px;
+	height: 40px;
+	line-height: 44px;
+	text-align:center;
+	/*浮动解决高度不一致，以及间距问题*/
+	float: left;
+	color:#fff;
+	/*去掉下划线*/
+	font-size: 13px;
+}
+.logo{
+	background: url(../img/image_large.svg);
+	/*no-repeat背景图像只重复一次
+	 repeat-x 沿X轴重复*/
+	background-repeat: no-repeat;
+}
+.search{
+	background: url(../img/sousuo_large.svg);
+	background-repeat: no-repeat;
+	/*
+	 定位背景位置，right靠右。。。。。
+	 */
+	background-position: right;
+}
+.buy{
+	background: url(../img/mai_large.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.nr1{
+	width: 100%;
+	text-align:center;
+	padding-top: 80px;
+	height: 640px;
+		/*设置溢出隐藏*/
+	overflow: hidden;
+	margin-top: 10px;
+	background: #FAFAFA;
+}
+.nr1 h1{
+	font-size: 50px;
+}
+.nr1 p{
+	margin-top: 15px;
+	font-size: 20px;
+}
+.nr1 a{
+	display: inline-block;
+	color: #0070c9;
+	font-size: 18px;
+	margin: 15px 20px 60px;
+}
+.bg{
+    background: #f5f5f5;
+}
+.bh{
+	color: white;
+	background: #121212;
+}
+.bh img{
+		/*设置溢出隐藏*/
+	overflow: hidden;
+	width: 976px;
+	height: 336px;
+}
+.bh a{
+	color: white;
+	margin-bottom: 0;
+}
+.list{
+	width: 100%;
+	height: 580px;
+	float: left;
+}
+.list .left{
+	width: 50%;
+	height: 580px;
+	padding: 5px;
+	display: inline-block;
+	float: left;
+}
+.list .right{
+	width: 50%;
+	height: 580px;
+	padding: 5px;
+	display: inline-block;
+	float: left;
+}
+.left .tp{
+	text-align:center;
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+	background: url(../img/shop_for_college_large.jpg);
+	background-position: center;
+}
+.right .tp{
+	color: white;
+	text-align:center;
+	padding-top: 450px;
+	width: 100%;
+	height: 100%;
+	background: url(../img/behind_the_mac_boniface_large.jpg);
+	background-position: center;
+}
+.tp h1{
+	font-size: 30px;
+}
+.tp p{
+	margin-top: 15px;
+	font-size: 20px;
+}
+.right .tp a{
+	color: white;
+	display: inline-block;
+	font-size: 15px;
+	margin: 15px 20px 60px;
+}
+.aff{
+	width: 100%;
+	height: 580px;
+	float: left;
+}
+.aff .left1{
+	width: 50%;
+	height: 580px;
+	padding: 5px;
+	display: inline-block;
+	float: left;
+}
+.aff .right1{
+	width: 50%;
+	height: 580px;
+	padding: 5px;
+	display: inline-block;
+	float: left;
+}
+.left1 .tp1{
+	text-align:center;
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+	background: #FAF0E6;
+}
+.right1 .tp1{
+	color: black;
+	text-align:center;
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+	background: url(../img/ios_large.jpg);
+	background-position: center;
+}
+.tp1 h1{
+	font-size: 30px;
+}
+.tp1 p{
+	font-size: 20px;
+}
+.left1 .tp1 a{
+	color: #0070c9;
+	display: inline-block;
+	font-size: 15px;
+	margin: 15px 20px 28px;
+}
+.ace{
+	width: 100%;
+	height: 580px;
+	margin-bottom: 10px;
+	float: left;
+}
+.ace .left2{
+	width: 50%;
+	height: 580px;
+	padding: 5px;
+	display: inline-block;
+	float: left;
+}
+.ace .right2{
+	width: 50%;
+	height: 580px;
+	padding: 5px;
+	display: inline-block;
+	float: left;
+}
+.left2 .tp2{
+	text-align:center;
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+	background: url(../img/trade_up_large.jpg);
+	background-position: center;
+}
+.right2 .tp2{
+	color: black;
+	text-align:center;
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+	background: #eee;
+}
+.tp2 h1{
+	font-size: 30px;
+}
+.tp2 p{
+	font-size: 20px;
+}
+.right2 .tp2 a{
+	color: #0070c9;
+	display: inline-block;
+	font-size: 15px;
+	margin: 15px 20px 20px;
+}
+#clear:after{
+	content: '';
+	display: block;
+	clear: both;
+	}
+.lb{
+	height: 400px;
+	width: 100%;
+	background: #eee;
+}
+ul{
+	list-style: none;
+	width: 100%;
+	padding-left:300px;
+	padding-right:200px;
+	margin: 0 auto;
+	text-align: left;
+	/*背景颜色覆盖是整体没有设置宽高，也就是浮动，后面会讲y
+	 已解决*/
+}
+ul li span{
+	display: inline-block;
+	font-size: 10px;
+	margin: 0 auto;
+    width: 19%;
+	text-align: left;
+}
+ul li a{
+	display: inline-block;
+	font-size: 10px;
+	margin: 0 auto;
+    width: 19%;
+	text-align: left;
+	color: #444444;
+	text-decoration:none;
+}
+.jiachu{
+	font-weight:bold;
+}
+.aaa{
+	padding-top: 30px;
+}
+.zj{
+	padding-top:5px;
+	padding-bottom:5px ;
+	list-style: none;
+	width: 100%;
+	padding-left:300px;
+	padding-right:200px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 10px;
+}
+.jiewei{
+	padding-top:5px;
+	padding-bottom:5px ;
+	list-style: none;
+	width: 100%;
+	padding-left:300px;
+	padding-right:200px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 10px;
+}
+.yanse1{
+	color: #444444;
+	text-decoration:none;
+}
+.yanse{
+	color: #0070c9;
+	text-decoration:none;
+	
+}
+/*
+ a:link {color: #FF0000}     未访问的链接 
+a:visited {color: #00FF00}   已访问的链接 
+a:hover {color: #FF00FF}     当有鼠标悬停在链接上
+a:active {color: #0000FF}    被选择的链接 
+样式的设置
+*/
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
